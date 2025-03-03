@@ -1,3 +1,26 @@
 body{
     font-family: Arial, sans-serif;
 }
+#max, #breath, #min {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#max {
+    width: 90vw;
+    background-color: #0147AB;
+}
+#breath {
+    width: 50vw;
+    background-color: #F00;
+    transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+#min {
+    width: 30vw;
+    background-color: #0147AB;
+}

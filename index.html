@@ -6,42 +6,15 @@
     <link rel="stylesheet" href="/css/main.css">
     <script src="/js/zepto.min.js"></script>
     <script src="/js/main.js" defer></script>
-    <title>Document</title>
+    <title>Breath</title>
 </head>
 <body>
-    <style>
-        :root {
-            --min: 30vw;
-            --max: 90vw;
-            --pad: 5vw;
-        }
-        #max, #breath, #min {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            aspect-ratio: 1;
-            border-radius: 50%;
-            border: 1px solid black;
-        }
-        #max {
-            width: 90vw;
-            background-color: #0147AB;
-        }
-        #breath {
-            width: 50vw;
-            background-color: #F00;
-        }
-        #min {
-            width: 30vw;
-            background-color: #0147AB;
-        }
-    </style>
-
     <div id="max">
         <div id="breath">
             <div id="min"></div>
         </div>
     </div>
+    <button id="action">start</button>
     <div id="log"></div>
 </body>
 </html>
